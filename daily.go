@@ -1,0 +1,26 @@
+package openmeteo
+
+const (
+	DailyTemperature2mMax             = "temperature_2m_max"
+	DailyTemperature2mMin             = "temperature_2m_min"
+	DailyApparentTemperatureMax       = "apparent_temperature_max"
+	DailyApparentTemperatureMin       = "apparent_temperature_min"
+	DailyPrecipitationSum             = "precipitation_sum"
+	DailyRainSum                      = "rain_sum"
+	DailyShowersSum                   = "showers_sum"
+	DailySnowfallSum                  = "snowfall_sum"
+	DailyPrecipitationHours           = "precipitation_hours"
+	DailyPrecipitationProbabilityMax  = "precipitation_probability_max"
+	DailyPrecipitationProbabilityMin  = "precipitation_probability_min"
+	DailyPrecipitationProbabilityMean = "precipitation_probability_mean"
+	DailyWeatherCode                  = "weathercode"
+	DailySunrise                      = "sunrise"
+	DailySunset                       = "sunset"
+	DailyWindSpeed10mMax              = "windspeed_10m_max"
+	DailyWindGusts10mMax              = "windgusts_10m_max"
+	DailyWindDirection10mDominant     = "winddirection_10m_dominant"
+	DailyShortwaveRadiationSum        = "shortwave_radiation_sum"
+	DailyEt0FaoEvapotranspiration     = "et0_fao_evapotranspiration"
+	DailyUvIndexMax                   = "uv_index_max"
+	DailyUvIndexClearSkyMax           = "uv_index_clear_sky_max"
+)
