@@ -6,13 +6,14 @@ import (
 )
 
 func TestParameter_ToQuery(t *testing.T) {
-	expected := "hourly=temperature,humidity&daily=temperature_max,precipitation_sum&temperature_unit=Celsius&precipitation_unit=millimeters&timeformat=YYYY-MM-DD HH:mm:ss&timezone=Europe/London&past_days=7&start_date=2023-06-01"
+	expected := "hourly=temperature,humidity&daily=temperature_max,precipitation_sum&current=temperature_2m,relativehumidity_2m&temperature_unit=Celsius&precipitation_unit=millimeters&timeformat=YYYY-MM-DD HH:mm:ss&timezone=Europe/London&past_days=7&start_date=2023-06-01"
 	param := openmeteo.Parameter{
 		Latitude:          nil,
 		Longitude:         nil,
 		Hourly:            &[]string{"temperature", "humidity"},
 		Elevation:         nil,
 		Daily:             &[]string{"temperature_max", "precipitation_sum"},
+		Current:		   &[]string{"temperature_2m", "relativehumidity_2m"},
 		CurrentWeather:    nil,
 		TemperatureUnit:   openmeteo.String("Celsius"),
 		WindSpeedUnit:     nil,
