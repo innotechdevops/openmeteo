@@ -12,6 +12,7 @@ type Parameter struct {
 	Hourly            *[]string `json:"hourly"`
 	Elevation         *float32  `json:"elevation"`
 	Daily             *[]string `json:"daily"`
+	Current           *[]string `json:"current"`
 	CurrentWeather    *bool     `json:"current_weather"`
 	TemperatureUnit   *string   `json:"temperature_unit"`
 	WindSpeedUnit     *string   `json:"windspeed_unit"`
