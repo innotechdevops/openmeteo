@@ -15,6 +15,11 @@ func TestOpenMeteo_Execute(t *testing.T) {
 			openmeteo.HourlyRelativeHumidity2m,
 			openmeteo.HourlyWindSpeed10m,
 		},
+		Current: &[]string{
+			openmeteo.CurrentTemperature2m,
+			openmeteo.CurrentRelativeHumidity2m,
+			openmeteo.CurrentWindSpeed10m,
+		},
 		CurrentWeather: openmeteo.Bool(true),
 	}
 	m := openmeteo.New()

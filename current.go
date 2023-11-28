@@ -3,8 +3,6 @@ package openmeteo
 // Note: Current conditions are based on 15-minutely weather model data.
 // Every weather variable available in hourly data, is available as current condition as well.
 const (
-	CurrentIsDayOrNight             = "is_day"
-	CurrentSnow                     = "snowfall"
 	CurrentTemperature2m            = "temperature_2m"
 	CurrentRelativeHumidity2m       = "relativehumidity_2m"
 	CurrentDewPoint2m               = "dewpoint_2m"
