@@ -33,7 +33,7 @@ const (
 	HourlyPrecipitationProbability = "precipitation_probability"
 	HourlyRain                     = "rain"
 	HourlyShowers                  = "showers"
-	HourlyWeatherCode              = "weather_code"
+	HourlyWeatherCode              = "weathercode"
 	HourlySnowDepth                = "snow_depth"
 	HourlyFreezingLevelHeight      = "freezinglevel_height"
 	HourlyVisibility               = "visibility"
